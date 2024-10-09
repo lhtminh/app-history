@@ -195,7 +195,7 @@ const trieuLyData: ITotalData = {
   image: images.menu_ly,
   list: [
     {
-      id: 3,
+      id: 13,
       category: ECategory.TRIEU_LY,
       image: images.menu_ly,
       title: 'Triều Lý: Thời kỳ ổn định và phát triển của Việt Nam',
