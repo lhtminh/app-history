@@ -16,14 +16,14 @@ import menu_ngo from '@/assets/images/history/menu_ngo.png'
 import menu_dinh from '@/assets/images/history/menu_dinh.png'
 import menu_haule from '@/assets/images/history/menu_haule.png'
 import menu_ly from '@/assets/images/history/menu_ly.png'
-import menu_tienle from '@/assets/images/history/menu_ly.png'
-import menu_ho from '@/assets/images/history/menu_ly.png'
-import menu_tran from '@/assets/images/history/menu_ly.png'
-import menu_mac from '@/assets/images/history/menu_ly.png'
-import menu_tayson from '@/assets/images/history/menu_ly.png'
-import menu_phapthuoc from '@/assets/images/history/menu_ly.png'
-import menu_hiendai from '@/assets/images/history/menu_ly.png'
-import menu_bacthuoc from '@/assets/images/history/menu_ly.png'
+import menu_tienle from '@/assets/images/history/menu_tienle.png'
+import menu_ho from '@/assets/images/history/menu_ho.png'
+import menu_tran from '@/assets/images/history/menu_tran.png'
+import menu_mac from '@/assets/images/history/menu_mac.png'
+import menu_tayson from '@/assets/images/history/menu_tayson.png'
+import menu_phapthuoc from '@/assets/images/history/menu_phapthuoc.png'
+import menu_hiendai from '@/assets/images/history/menu_hiendai.png'
+import menu_bacthuoc from '@/assets/images/history/menu_bacthuoc.png'
 import bacthuoc from '@assets/images/history/bacthuoc.png'
 import ctmac from '@assets/images/history/ctmac.png'
 import dbl1 from '@assets/images/history/ctmac.png'
@@ -75,5 +75,30 @@ export default {
   menu_tayson,
   menu_phapthuoc,
   menu_hiendai,
-  menu_bacthuoc
+  menu_bacthuoc,
+  bacthuoc,
+  ctmac,
+  dbl1,
+  dbl2,
+  dbl3, 
+  haule,
+  ho1,
+  ho2,
+  li2,
+  li1,
+  le1,
+  le2,
+  mạc,
+  nq1,
+  nq2,
+  nxv,
+  nxn,
+  phapthuoc,
+  hcm,
+  tran0,
+  tran1,
+  ts1,
+  ts2,
+  trinhnguyen
+
 }

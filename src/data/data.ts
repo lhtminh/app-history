@@ -52,8 +52,8 @@ const bacThuocData: ITotalData = {
   list: [
     {
       id: 20,
-      image: images.menu_bacthuoc,  // hình ảnh minh họa về thời kỳ Bắc thuộc
-      category: ECategory.LICH_SU,
+      image: images.bacthuoc,  // hình ảnh minh họa về thời kỳ Bắc thuộc
+      category: ECategory.BAC_THUOC,
       title: 'Thời kỳ Bắc thuộc: Giai đoạn Việt Nam bị cai trị bởi các triều đại Trung Quốc',
       description:
         'Thời kỳ Bắc thuộc là giai đoạn trong lịch sử Việt Nam khi đất nước bị đặt dưới quyền cai trị của các triều đại Trung Quốc, bao gồm bốn lần Bắc thuộc chính từ thế kỷ thứ 2 trước Công nguyên đến thế kỷ 15. Dù trải qua sự cai trị lâu dài, người Việt vẫn liên tục nổi dậy để giành lại độc lập.',
@@ -97,14 +97,14 @@ const trieuNgoData: ITotalData = {
   list: [
     {
       id: 1,
-      image: images.slide1,  // hình ảnh của Ngô Quyền
+      image: images.nq1,  // hình ảnh của Ngô Quyền
       category: ECategory.TRIEU_NGO,
       description: 'Ngô Quyền là người sáng lập triều đại nhà Ngô, nổi tiếng với chiến thắng Bạch Đằng chống quân Nam Hán.',
       title: 'Ngô Quyền',
       body: [
         {
           title: 'Chiến thắng Bạch Đằng',
-          image: images.slide1,  // hình ảnh minh họa chiến thắng
+          image: images.nq2,  // hình ảnh minh họa chiến thắng
           content: 'Năm 938, Ngô Quyền lãnh đạo quân dân đánh bại quân Nam Hán trên sông Bạch Đằng, đánh dấu sự chấm dứt thời kỳ Bắc thuộc.',
         },
         {
@@ -115,7 +115,7 @@ const trieuNgoData: ITotalData = {
     },
     {
       id: 2,
-      image: images.slide1,  // hình ảnh của Ngô Xương Ngập
+      image: images.nxn,  // hình ảnh của Ngô Xương Ngập
       category: ECategory.TRIEU_NGO,
       description: 'Ngô Xương Ngập là con trưởng của Ngô Quyền, nhưng bị Dương Tam Kha cướp ngôi, phải chạy trốn.',
       title: 'Ngô Xương Ngập',
@@ -132,7 +132,7 @@ const trieuNgoData: ITotalData = {
     },
     {
       id: 3,
-      image: images.slide1,  // hình ảnh của Ngô Xương Văn
+      image: images.nxv,  // hình ảnh của Ngô Xương Văn
       category: ECategory.TRIEU_NGO,
       description: 'Ngô Xương Văn là con trai thứ của Ngô Quyền, người đã lật đổ Dương Tam Kha và khôi phục nhà Ngô.',
       title: 'Ngô Xương Văn',
@@ -160,9 +160,10 @@ const trieuDinhData: ITotalData = {
   list: [
     {
       id: 1,
-      image: images.slide1,
+      image: images.dbl1,
       category: ECategory.TRIEU_DINH,
       title: 'Triều Đinh: Nền tảng xây dựng quốc gia độc lập',
+      
       description:
         'Triều Đinh, kéo dài từ năm 968 đến năm 980, là một giai đoạn quan trọng trong lịch sử Việt Nam khi đất nước bước vào kỷ nguyên độc lập sau hàng ngàn năm chịu sự đô hộ của phong kiến Trung Quốc. Triều đại này do Đinh Bộ Lĩnh sáng lập, và dù tồn tại trong thời gian ngắn, nó đã đặt nền móng cho sự hình thành một quốc gia độc lập và mạnh mẽ.',
       body: [
@@ -174,7 +175,7 @@ const trieuDinhData: ITotalData = {
         },
         {
           title: 'Thành tựu quan trọng',
-          image: images.menu1,
+          image: images.dbl3,
           content: `	1.	Xây dựng quốc gia độc lập: Đinh Bộ Lĩnh đã chấm dứt tình trạng chia cắt và thiết lập một chính quyền trung ương tập quyền, đưa đất nước thoát khỏi sự xâm lược từ phương Bắc, đặc biệt từ nhà Tống.
 2.	Xây dựng bộ máy nhà nước: Dưới triều Đinh, hệ thống quan lại và quân đội được tổ chức chặt chẽ. Đinh Bộ Lĩnh xưng là Đinh Tiên Hoàng, tự khẳng định quyền lực tuyệt đối. Ông xây dựng lực lượng quân đội mạnh, chia quân thành “thập đạo” và tạo ra một triều đình có khả năng quản lý toàn bộ quốc gia.
 3.	Chính sách ngoại giao khéo léo: Đinh Tiên Hoàng nhận thấy sự đe dọa từ phương Bắc nhưng không trực tiếp đối đầu mà chọn con đường ngoại giao khôn khéo. Ông duy trì mối quan hệ hòa bình với nhà Tống bằng cách xin sắc phong, vừa thể hiện sự độc lập nhưng cũng bảo đảm an ninh cho Đại Cồ Việt.
@@ -193,7 +194,7 @@ Triều Đinh có thể ngắn ngủi, nhưng vai trò của nó trong việc kh
     },
     {
       id: 2,
-      image: images.slide2,
+      image: images.dbl2,
       category: ECategory.TRIEU_DINH,
       title: 'Triều Đinh: Khởi nguồn nền độc lập dân tộc',
       description:
@@ -234,7 +235,7 @@ const trieuLyData: ITotalData = {
     {
       id: 3,
       category: ECategory.TRIEU_LY,
-      image: images.menu_ly,
+      image: images.li1,
       title: 'Triều Lý: Thời kỳ ổn định và phát triển của Việt Nam',
       description:
         'Triều Lý (1009-1225) là một trong những triều đại lâu dài và phát triển nhất trong lịch sử Việt Nam. Đây là giai đoạn mà đất nước đạt được sự ổn định về chính trị, phát triển về văn hóa và mở rộng lãnh thổ. Triều đại này do Lý Công Uẩn sáng lập và được coi là một trong những thời kỳ hưng thịnh nhất của lịch sử dân tộc.',
@@ -263,7 +264,7 @@ const trieuLyData: ITotalData = {
     },
     {
       id: 4,
-      image: images.menu_ly,
+      image: images.li2,
       category: ECategory.TRIEU_LY,
       title: 'Triều Lý: Giai đoạn phát triển và mở rộng lãnh thổ',
       description:
@@ -303,7 +304,7 @@ const trieuTienLeData: ITotalData = {
   list: [
     {
       id: 6,
-      image: images.menu_tien_le,  // hình ảnh minh họa cho triều đại Tiền Lê
+      image: images.le1,  // hình ảnh minh họa cho triều đại Tiền Lê
       category: ECategory.TRIEU_TIEN_LE,
       title: 'Bộ máy Nhà nước và các vị Vua Triều đại Tiền Lê',
       description:
@@ -333,7 +334,7 @@ const trieuTienLeData: ITotalData = {
     },
     {
       id: 7,
-      image: images.menu_dai_co_viet,  // hình ảnh minh họa cho nhà nước Đại Cồ Việt thời Tiền Lê
+      image: images.le2,  // hình ảnh minh họa cho nhà nước Đại Cồ Việt thời Tiền Lê
       category: ECategory.TRIEU_TIEN_LE,
       title: 'Nhà nước Đại Cồ Việt dưới thời Tiền Lê',
       description:
@@ -398,8 +399,8 @@ const trieuHauLeData: ITotalData = {
   list: [
     {
       id: 19,
-      image: images.menu_hau_le,  // hình ảnh minh họa về triều đại Nhà Hậu Lê
-      category: ECategory.LICH_SU,
+      image: images.haule,  // hình ảnh minh họa về triều đại Nhà Hậu Lê
+      category: ECategory.TRIEU_HAU_LE,
       title: 'Nhà Hậu Lê: Triều đại thăng trầm của lịch sử Việt Nam',
       description:
         'Nhà Hậu Lê (1428–1789) là triều đại phong kiến do Lê Lợi lập ra, kéo dài gần 360 năm. Triều đại này trải qua hai giai đoạn chính: Lê sơ (1428-1528) và Lê Trung Hưng (1533-1789), với nhiều biến cố lớn trong lịch sử nước Đại Việt.',
@@ -430,8 +431,8 @@ const trieuHauLeData: ITotalData = {
     },
     {
       id: 21,
-      image: images.menu_trinh_nguyen,  // hình ảnh minh họa về Trịnh-Nguyễn phân tranh
-      category: ECategory.LICH_SU,
+      image: images.trinhnguyen,  // hình ảnh minh họa về Trịnh-Nguyễn phân tranh
+      category: ECategory.TRIEU_HAU_LE,
       title: 'Trịnh – Nguyễn phân tranh: Cuộc phân chia lãnh thổ và quyền lực trong lịch sử Việt Nam',
       description:
         'Trịnh – Nguyễn phân tranh là giai đoạn lịch sử Việt Nam khi đất nước bị chia cắt thành hai miền, với chế độ "vua Lê chúa Trịnh" ở Đàng Ngoài và chúa Nguyễn cai trị Đàng Trong. Cuộc chiến kéo dài hơn 150 năm từ năm 1627 và kết thúc vào năm 1777, đánh dấu sự đối đầu giữa hai thế lực phong kiến mạnh mẽ.',
@@ -483,7 +484,7 @@ const trieuTranData: ITotalData = {
   list: [
     {
       id: 8,
-      image: images.menu_tran,  // hình ảnh minh họa cho nhà Trần
+      image: images.tran0,  // hình ảnh minh họa cho nhà Trần
       category: ECategory.TRIEU_TRAN,
       title: 'Sơ lược về nhà Trần',
       description:
@@ -521,7 +522,7 @@ const trieuTranData: ITotalData = {
     },
     {
       id: 9,
-      image: images.menu_nguyen_mong,  // hình ảnh minh họa chiến thắng quân Nguyên - Mông
+      image: images.tran1,  // hình ảnh minh họa chiến thắng quân Nguyên - Mông
       category: ECategory.TRIEU_TRAN,
       title: 'Quân dân nhà Trần ba lần đánh thắng giặc Nguyên - Mông',
       description:
@@ -560,7 +561,7 @@ const trieuHoData: ITotalData = {
   list: [
     {
       id: 10,
-      image: images.menu_ho,  // hình ảnh minh họa cho triều đại nhà Hồ
+      image: images.ho1,  // hình ảnh minh họa cho triều đại nhà Hồ
       category: ECategory.TRIEU_HO,
       title: 'Triều đại ngắn ngủi nhất lịch sử phong kiến Việt Nam',
       description:
@@ -590,7 +591,7 @@ const trieuHoData: ITotalData = {
     },
     {
       id: 11,
-      image: images.menu_ho_minh,  // hình ảnh minh họa chiến tranh Đại Ngu - Đại Minh
+      image: images.ho2,  // hình ảnh minh họa chiến tranh Đại Ngu - Đại Minh
       category: ECategory.TRIEU_HO,
       title: 'Chiến tranh Đại Ngu - Đại Minh',
       description:
@@ -639,7 +640,7 @@ const trieuMacData: ITotalData = {
   list: [
     {
       id: 12,
-      image: images.menu_mac,  // hình ảnh minh họa cho triều đại nhà Mạc
+      image: images.mạc,  // hình ảnh minh họa cho triều đại nhà Mạc
       category: ECategory.TRIEU_MAC,
       title: 'Đôi nét về triều đại nhà Mạc',
       description:
@@ -673,7 +674,7 @@ const trieuMacData: ITotalData = {
     },
     {
       id: 13,
-      image: images.menu_le_mac,  // hình ảnh minh họa cho cuộc chiến tranh Lê - Mạc
+      image: images.ctmac,  // hình ảnh minh họa cho cuộc chiến tranh Lê - Mạc
       category: ECategory.TRIEU_MAC,
       title: 'Chiến tranh Lê - Mạc',
       description:
@@ -717,7 +718,7 @@ const trieuNguyenData: ITotalData = {
   list: [
     {
       id: 18,
-      image: images.menu_nha_nguyen,  // hình ảnh minh họa về triều đại nhà Nguyễn
+      image: images.menu_nguyen,  // hình ảnh minh họa về triều đại nhà Nguyễn
       category: ECategory.TRIEU_NGUYEN,
       title: 'Triều đại Nhà Nguyễn: Thăng trầm và dấu ấn lịch sử',
       description:
@@ -764,7 +765,7 @@ const trieuTaySonData: ITotalData = {
   list: [
     {
       id: 14,
-      image: images.menu_quang_trung,  // hình ảnh minh họa cho Quang Trung - Nguyễn Huệ
+      image: images.ts1,  // hình ảnh minh họa cho Quang Trung - Nguyễn Huệ
       category: ECategory.TRIEU_TAY_SON,
       title: 'Những cống hiến và công trạng của Quang Trung - Nguyễn Huệ',
       description:
@@ -799,7 +800,7 @@ const trieuTaySonData: ITotalData = {
     },
     {
       id: 15,
-      image: images.menu_tay_son_quan_doi,  // hình ảnh minh họa cho quân đội Tây Sơn
+      image: images.ts2,  // hình ảnh minh họa cho quân đội Tây Sơn
       category: ECategory.TRIEU_TAY_SON,
       title: 'Triều Tây Sơn và các chính sách xây dựng quân đội',
       description:
@@ -847,7 +848,7 @@ const phapThuocData: ITotalData = {
   list: [
     {
       id: 16,
-      image: images.menu_phap_thuoc,  // hình ảnh minh họa cho giai đoạn Pháp thuộc
+      image: images.phapthuoc,  // hình ảnh minh họa cho giai đoạn Pháp thuộc
       category: ECategory.PHAP_THUOC,
       title: 'Pháp thuộc: Giai đoạn thuộc địa hóa Việt Nam và Đông Dương',
       description:
@@ -880,7 +881,7 @@ const phapThuocData: ITotalData = {
     },
     {
       id: 17,
-      image: images.menu_ho_chi_minh,  // hình ảnh minh họa về Hồ Chí Minh
+      image: images.hcm,  // hình ảnh minh họa về Hồ Chí Minh
       category: ECategory.PHAP_THUOC,
       title: 'Hồ Chí Minh: Nhà cách mạng và lãnh tụ vĩ đại của Việt Nam',
       description:
