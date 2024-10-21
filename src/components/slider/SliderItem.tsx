@@ -67,17 +67,24 @@ const SliderItem = ({ item, index, scrollX }: SliderItemProps) => {
           >
             <View className="flex-col items-start p-5">
               <View className="bg-primary-500 py-1 px-2 rounded-3xl">
-                <Text className="text-gray-200 text-xs capitalize">
+                <Text className="text-white text-xs capitalize">
                   {totalData[item.category].title}
                 </Text>
               </View>
-              <Text
-                className="text-white font-medium text-lg"
-                ellipsizeMode="tail"
-                numberOfLines={2}
+              <View
+                className=" p-2 mt-3 rounded-xl"
+                style={{
+                  backgroundColor: 'rgba(0,0,0,0.5)',
+                }}
               >
-                {item.description}
-              </Text>
+                <Text
+                  className="text-white font-medium text-lg"
+                  ellipsizeMode="tail"
+                  numberOfLines={2}
+                >
+                  {item.description}
+                </Text>
+              </View>
             </View>
           </ImageBackground>
         </View>

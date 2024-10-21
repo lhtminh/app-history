@@ -20,22 +20,12 @@ const HeaderTool = ({ hasBack = false }: Props) => {
     console.log('notificationPress')
   }
 
-  return (
+  return hasBack ? (
     <View className="flex-row justify-between items-center px-5 py-2">
-      {hasBack ? (
-        <IconButton IconName={ArrowLeft} onPress={() => router.back()} />
-      ) : (
-        <IconButton IconName={Menu} onPress={menuPress} />
-      )}
-      <View className="flex-row gap-2">
-        <View>
-          <IconButton IconName={SearchNormal} onPress={searchPress} />
-        </View>
-        <View>
-          <IconButton IconName={NotificationBing} onPress={notificationPress} />
-        </View>
-      </View>
+      <IconButton IconName={ArrowLeft} onPress={() => router.back()} />
     </View>
+  ) : (
+    <></>
   )
 }
 

@@ -6,34 +6,6 @@ Explore the cosmos like never before! Our **Viet History** offers detailed plane
 
 ---
 
-## 🎬 **Demo App**
-
-<div align="center">
-  <video width="400" height="300" controls>
-    <source src="https://www.w3schools.com/movie.mp4" type="video/mp4">
-    <source src="https://www.w3schools.com/movie.ogg" type="video/ogg">
-  </video>
-</div>
-
----
-
-## 🗂 **Table of Contents**
-
-- [🌌 Viet History](#)
-  - [🎬 Demo App](#demo-app)
-  - [🗂 Table of Contents](#table-of-contents)
-  - [🌍 About](#about)
-  - [🚀 Features](#features)
-      - [🪐 Planet Information](#planet-information)
-      - [🧠 Planetarium Quiz](#Planetarium-quiz)
-      - [🧩 Image Puzzle Game](#image-puzzle-game)
-  - [📸 Screenshots](#screenshots)
-  - [⚙️ Getting Started](#getting-started)
-    - [🛠 Prerequisites](#prerequisites)
-    - [📥 Installation](#installation)
-
----
-
 ## 🌍 **About**
 
 Discover the wonders of the universe with our **Viet History**! Learn fascinating facts about planets, test your space knowledge with quizzes, and engage in interactive puzzle games to keep you entertained and educated. Whether you're a casual learner or a space enthusiast, this app has something for everyone!
@@ -42,17 +14,17 @@ Discover the wonders of the universe with our **Viet History**! Learn fascinatin
 
 ## 🚀 **Features**
 
-### 🪐 **Planet Information**
+### 🪐 **Feature 1**
 
 - **Detailed Descriptions**: Explore each planet's structure, size, atmosphere, and other unique features.
 - **Stunning Visuals**: Enjoy high-quality images and videos that showcase the beauty of planets.
 
-### 🧠 **Planetarium Quiz**
+### 🧠 **Feature 2**
 
 - **Challenging Quizzes**: Test your knowledge of the cosmos with questions about planets, stars, and astronomical events.
 - **Random & Topic-Specific Quizzes**: Choose between random questions or focus on specific topics of interest.
 
-### 🧩 **Image Puzzle Game**
+### 🧩 **Feature 3**
 
 - **Engaging Puzzle Challenges**: Solve puzzles featuring cosmic images to sharpen your skills and knowledge of the universe.
 - **Progressive Levels**: Each puzzle gets harder, challenging you to think critically and solve with precision.
@@ -62,14 +34,19 @@ Discover the wonders of the universe with our **Viet History**! Learn fascinatin
 ## 📸 **Screenshots**
 
 <div align="center">
-  <img src="./assets/anh1.jpg" width="30%" alt='Screenshot 1'>
-  <img src="./assets/anh2.jpg" width="30%" alt='Screenshot 2'>
-  <img src="./assets/anh3.jpg" width="30%" alt='Screenshot 3'>
-  <img src="./assets/anh4.jpg" width="30%" alt='Screenshot 4'>
-  <img src="./assets/anh5.jpg" width="30%" alt='Screenshot 5'>
+  <img src="./assets/demo/1.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/2.png" width="30%" alt='Screenshot 2'>
+  <img src="./assets/demo/3.png"  width="30%" alt='Screenshot 3'>
+  <img src="./assets/demo/4.png"  width="30%" alt='Screenshot 4'>
+  <img src="./assets/demo/5.png"  width="30%" alt='Screenshot 5'>
+  <img src="./assets/demo/6.png"  width="30%" alt='Screenshot 5'>
+  <img src="./assets/demo/7.png"  width="30%" alt='Screenshot 5'>
 </div>
 
 ---
+
+## 🎬 **Demo App**
+### [DEMO - DRIVE](https://drive.google.com/drive/folders/14AHE7sra4r7ZuGnD1gbgepaF5VbBCuKo?usp=drive_link)
 
 ## ⚙️ **Getting Started**
 
@@ -85,8 +62,8 @@ Make sure you have these tools installed before starting:
 
 1. **Clone the repository**:
     ```bash
-    git clone git@github.com:HeyHeyHeyHeyHe/app-thienvanhoc-.git
-    cd app-thienvanhoc-
+    git clone https://github.com/lhtminh/app-history.git
+    cd app-history
     ```
 
 2. **Install dependencies**:

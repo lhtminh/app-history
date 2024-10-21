@@ -52,7 +52,7 @@ const bacThuocData: ITotalData = {
   list: [
     {
       id: 20,
-      image: images.bacthuoc,  // hình ảnh minh họa về thời kỳ Bắc thuộc
+      image: images.bacthuoc, // hình ảnh minh họa về thời kỳ Bắc thuộc
       category: ECategory.BAC_THUOC,
       title: 'Thời kỳ Bắc thuộc: Giai đoạn Việt Nam bị cai trị bởi các triều đại Trung Quốc',
       description:
@@ -85,7 +85,29 @@ const bacThuocData: ITotalData = {
           content: `Mặc dù bị cai trị trong nhiều thế kỷ, người Việt không ngừng nổi dậy để giành lại độc lập. Các cuộc khởi nghĩa nổi tiếng như khởi nghĩa Hai Bà Trưng, khởi nghĩa Lý Bí, và cuộc khởi nghĩa Lam Sơn của Lê Lợi đều là những dấu ấn quan trọng trong lịch sử đấu tranh giành độc lập của dân tộc Việt Nam.`,
         },
       ],
-    }
+    },
+    {
+      id: 21, // New entry
+      image: images.ba_trieu, // Image for the new event
+      category: ECategory.BAC_THUOC,
+      title: 'Khởi nghĩa Bà Triệu (248)',
+      description:
+        'Khởi nghĩa Bà Triệu là một trong những cuộc kháng chiến nổi bật nhất trong thời kỳ Bắc thuộc lần thứ hai, do nữ tướng Triệu Thị Trinh lãnh đạo chống lại sự cai trị của nhà Ngô.',
+      body: [
+        {
+          title: '1. Bối cảnh và nguyên nhân',
+          content: `Vào năm 248, trong thời kỳ Bắc thuộc lần thứ hai, Việt Nam chịu sự cai trị hà khắc của nhà Ngô. Để phản đối sự áp bức này, nữ tướng Triệu Thị Trinh, thường gọi là Bà Triệu, đã đứng lên lãnh đạo cuộc khởi nghĩa chống quân Ngô.`,
+        },
+        {
+          title: '2. Diễn biến cuộc khởi nghĩa',
+          content: `Bà Triệu đã tập hợp lực lượng và tấn công quân Ngô tại các vùng Bắc Bộ. Bà nổi tiếng với câu nói: "Tôi muốn cưỡi cơn gió mạnh, đạp bằng sóng dữ, chém cá kình ở Biển Đông, chứ không chịu khom lưng làm tỳ thiếp cho người."`,
+        },
+        {
+          title: '3. Kết quả',
+          content: `Cuộc khởi nghĩa dù không thành công lâu dài, nhưng đã ghi dấu trong lịch sử Việt Nam như một trong những cuộc kháng chiến nổi bật chống lại quân xâm lược phương Bắc. Bà Triệu trở thành biểu tượng của lòng yêu nước và sự kiên cường của phụ nữ Việt Nam.`,
+        },
+      ],
+    },
   ],
 }
 const trieuNgoData: ITotalData = {
@@ -97,44 +119,51 @@ const trieuNgoData: ITotalData = {
   list: [
     {
       id: 1,
-      image: images.nq1,  // hình ảnh của Ngô Quyền
+      image: images.nq1, // hình ảnh của Ngô Quyền
       category: ECategory.TRIEU_NGO,
-      description: 'Ngô Quyền là người sáng lập triều đại nhà Ngô, nổi tiếng với chiến thắng Bạch Đằng chống quân Nam Hán.',
+      description:
+        'Ngô Quyền là người sáng lập triều đại nhà Ngô, nổi tiếng với chiến thắng Bạch Đằng chống quân Nam Hán.',
       title: 'Ngô Quyền',
       body: [
         {
           title: 'Chiến thắng Bạch Đằng',
-          image: images.nq2,  // hình ảnh minh họa chiến thắng
-          content: 'Năm 938, Ngô Quyền lãnh đạo quân dân đánh bại quân Nam Hán trên sông Bạch Đằng, đánh dấu sự chấm dứt thời kỳ Bắc thuộc.',
+          image: images.nq2, // hình ảnh minh họa chiến thắng
+          content:
+            'Năm 938, Ngô Quyền lãnh đạo quân dân đánh bại quân Nam Hán trên sông Bạch Đằng, đánh dấu sự chấm dứt thời kỳ Bắc thuộc.',
         },
         {
           title: 'Lên ngôi vua',
-          content: 'Sau chiến thắng, Ngô Quyền lên ngôi vua vào năm 939, mở ra kỷ nguyên độc lập cho nước Việt.'
-        }
-      ]
+          content:
+            'Sau chiến thắng, Ngô Quyền lên ngôi vua vào năm 939, mở ra kỷ nguyên độc lập cho nước Việt.',
+        },
+      ],
     },
     {
       id: 2,
-      image: images.nxn,  // hình ảnh của Ngô Xương Ngập
+      image: images.nxn, // hình ảnh của Ngô Xương Ngập
       category: ECategory.TRIEU_NGO,
-      description: 'Ngô Xương Ngập là con trưởng của Ngô Quyền, nhưng bị Dương Tam Kha cướp ngôi, phải chạy trốn.',
+      description:
+        'Ngô Xương Ngập là con trưởng của Ngô Quyền, nhưng bị Dương Tam Kha cướp ngôi, phải chạy trốn.',
       title: 'Ngô Xương Ngập',
       body: [
         {
           title: 'Tranh giành quyền lực',
-          content: 'Ngô Xương Ngập bị Dương Tam Kha cướp ngôi và buộc phải chạy trốn trong thời gian dài.',
+          content:
+            'Ngô Xương Ngập bị Dương Tam Kha cướp ngôi và buộc phải chạy trốn trong thời gian dài.',
         },
         {
           title: 'Quay trở lại',
-          content: 'Ngô Xương Ngập sau đó trở về và cố gắng giành lại quyền lực, nhưng triều đại đã suy yếu dần.'
-        }
-      ]
+          content:
+            'Ngô Xương Ngập sau đó trở về và cố gắng giành lại quyền lực, nhưng triều đại đã suy yếu dần.',
+        },
+      ],
     },
     {
       id: 3,
-      image: images.nxv,  // hình ảnh của Ngô Xương Văn
+      image: images.nxv, // hình ảnh của Ngô Xương Văn
       category: ECategory.TRIEU_NGO,
-      description: 'Ngô Xương Văn là con trai thứ của Ngô Quyền, người đã lật đổ Dương Tam Kha và khôi phục nhà Ngô.',
+      description:
+        'Ngô Xương Văn là con trai thứ của Ngô Quyền, người đã lật đổ Dương Tam Kha và khôi phục nhà Ngô.',
       title: 'Ngô Xương Văn',
       body: [
         {
@@ -143,13 +172,13 @@ const trieuNgoData: ITotalData = {
         },
         {
           title: 'Sự suy yếu của triều đại',
-          content: 'Nhà Ngô dần suy yếu do xung đột quyền lực giữa các lãnh chúa địa phương, dẫn đến cái chết của Ngô Xương Văn vào năm 965.'
-        }
-      ]
-    }
-  ]
-};
-
+          content:
+            'Nhà Ngô dần suy yếu do xung đột quyền lực giữa các lãnh chúa địa phương, dẫn đến cái chết của Ngô Xương Văn vào năm 965.',
+        },
+      ],
+    },
+  ],
+}
 
 const trieuDinhData: ITotalData = {
   id: ECategory.TRIEU_DINH,
@@ -163,7 +192,7 @@ const trieuDinhData: ITotalData = {
       image: images.dbl1,
       category: ECategory.TRIEU_DINH,
       title: 'Triều Đinh: Nền tảng xây dựng quốc gia độc lập',
-      
+
       description:
         'Triều Đinh, kéo dài từ năm 968 đến năm 980, là một giai đoạn quan trọng trong lịch sử Việt Nam khi đất nước bước vào kỷ nguyên độc lập sau hàng ngàn năm chịu sự đô hộ của phong kiến Trung Quốc. Triều đại này do Đinh Bộ Lĩnh sáng lập, và dù tồn tại trong thời gian ngắn, nó đã đặt nền móng cho sự hình thành một quốc gia độc lập và mạnh mẽ.',
       body: [
@@ -304,7 +333,7 @@ const trieuTienLeData: ITotalData = {
   list: [
     {
       id: 6,
-      image: images.le1,  // hình ảnh minh họa cho triều đại Tiền Lê
+      image: images.le1, // hình ảnh minh họa cho triều đại Tiền Lê
       category: ECategory.TRIEU_TIEN_LE,
       title: 'Bộ máy Nhà nước và các vị Vua Triều đại Tiền Lê',
       description:
@@ -334,7 +363,7 @@ const trieuTienLeData: ITotalData = {
     },
     {
       id: 7,
-      image: images.le2,  // hình ảnh minh họa cho nhà nước Đại Cồ Việt thời Tiền Lê
+      image: images.le2, // hình ảnh minh họa cho nhà nước Đại Cồ Việt thời Tiền Lê
       category: ECategory.TRIEU_TIEN_LE,
       title: 'Nhà nước Đại Cồ Việt dưới thời Tiền Lê',
       description:
@@ -343,17 +372,17 @@ const trieuTienLeData: ITotalData = {
         {
           title: 'Bối cảnh lịch sử và triều đại Lê Long Đĩnh',
           content:
-            'Cho đến năm 1005, vua Lê Hoàn mất, các con của Lê Hoàn tranh chấp ngôi vua, đem quân đánh lẫn nhau; các hoàng tử hoặc bị giết, hoặc đầu hàng Lê Long Đĩnh. Dưới thời Lê Long Đĩnh (1005 - 1009), Nhà nước Đại Cồ Việt cũng có những bước phát triển nhất định, nhưng do Lê Long Đĩnh sớm đi vào con đường ăn chơi sa đọa nên lòng người chán nản, oán giận. Vì vậy, sau khi Lê Long Đĩnh chết (năm 1009), triều đình đưa Lý Công Uẩn lên làm vua, lập ra triều Lý (1009 - 1225).'
+            'Cho đến năm 1005, vua Lê Hoàn mất, các con của Lê Hoàn tranh chấp ngôi vua, đem quân đánh lẫn nhau; các hoàng tử hoặc bị giết, hoặc đầu hàng Lê Long Đĩnh. Dưới thời Lê Long Đĩnh (1005 - 1009), Nhà nước Đại Cồ Việt cũng có những bước phát triển nhất định, nhưng do Lê Long Đĩnh sớm đi vào con đường ăn chơi sa đọa nên lòng người chán nản, oán giận. Vì vậy, sau khi Lê Long Đĩnh chết (năm 1009), triều đình đưa Lý Công Uẩn lên làm vua, lập ra triều Lý (1009 - 1225).',
         },
         {
           title: 'Dời đô và triều đại mới',
           content:
-            'Năm 1010, vua Lý Công Uẩn quyết định dời đô từ Hoa Lư về thành Đại La và đổi tên là thành Thăng Long. Việc dời đô về Thăng Long phản ánh yêu cầu mới về phát triển nhà nước phong kiến tập quyền và chứng tỏ khả năng, lòng tin, quyết tâm của cả dân tộc trong việc giữ vững nền độc lập. Cùng với tinh thần, ý chí đó, năm 1054, nhà Lý (vua Lý Thánh Tông) đổi tên nước là Đại Việt.'
+            'Năm 1010, vua Lý Công Uẩn quyết định dời đô từ Hoa Lư về thành Đại La và đổi tên là thành Thăng Long. Việc dời đô về Thăng Long phản ánh yêu cầu mới về phát triển nhà nước phong kiến tập quyền và chứng tỏ khả năng, lòng tin, quyết tâm của cả dân tộc trong việc giữ vững nền độc lập. Cùng với tinh thần, ý chí đó, năm 1054, nhà Lý (vua Lý Thánh Tông) đổi tên nước là Đại Việt.',
         },
         {
           title: 'Quốc hiệu Đại Cồ Việt',
           content:
-            'Quốc hiệu "Đại Cồ Việt" tồn tại trong lịch sử dân tộc từ năm 968 đến năm 1054, trải qua 3 triều đại: Đinh (968 - 980), Tiền Lê (980 - 1009) và thời kỳ đầu của nhà Lý (1009 - 1054).'
+            'Quốc hiệu "Đại Cồ Việt" tồn tại trong lịch sử dân tộc từ năm 968 đến năm 1054, trải qua 3 triều đại: Đinh (968 - 980), Tiền Lê (980 - 1009) và thời kỳ đầu của nhà Lý (1009 - 1054).',
         },
         {
           title: 'Tổ chức bộ máy nhà nước',
@@ -386,7 +415,7 @@ const trieuTienLeData: ITotalData = {
           2. Thời kỳ đầu nhà Lý, quan hệ hòa hiếu với nhà Tống tiếp tục được chăm lo củng cố. Tuy nhiên, quan hệ Việt - Chăm ở phía Nam trở nên căng thẳng, dẫn đến các cuộc chinh phạt của các vua Lý.`,
         },
       ],
-    }
+    },
   ],
 }
 
@@ -399,7 +428,7 @@ const trieuHauLeData: ITotalData = {
   list: [
     {
       id: 19,
-      image: images.haule,  // hình ảnh minh họa về triều đại Nhà Hậu Lê
+      image: images.haule, // hình ảnh minh họa về triều đại Nhà Hậu Lê
       category: ECategory.TRIEU_HAU_LE,
       title: 'Nhà Hậu Lê: Triều đại thăng trầm của lịch sử Việt Nam',
       description:
@@ -431,9 +460,10 @@ const trieuHauLeData: ITotalData = {
     },
     {
       id: 21,
-      image: images.trinhnguyen,  // hình ảnh minh họa về Trịnh-Nguyễn phân tranh
+      image: images.trinhnguyen, // hình ảnh minh họa về Trịnh-Nguyễn phân tranh
       category: ECategory.TRIEU_HAU_LE,
-      title: 'Trịnh – Nguyễn phân tranh: Cuộc phân chia lãnh thổ và quyền lực trong lịch sử Việt Nam',
+      title:
+        'Trịnh – Nguyễn phân tranh: Cuộc phân chia lãnh thổ và quyền lực trong lịch sử Việt Nam',
       description:
         'Trịnh – Nguyễn phân tranh là giai đoạn lịch sử Việt Nam khi đất nước bị chia cắt thành hai miền, với chế độ "vua Lê chúa Trịnh" ở Đàng Ngoài và chúa Nguyễn cai trị Đàng Trong. Cuộc chiến kéo dài hơn 150 năm từ năm 1627 và kết thúc vào năm 1777, đánh dấu sự đối đầu giữa hai thế lực phong kiến mạnh mẽ.',
       body: [
@@ -470,8 +500,7 @@ const trieuHauLeData: ITotalData = {
           content: `Mặc dù đất nước bị chia cắt, lòng dân vẫn hướng về sự thống nhất. Những cuộc chiến tranh liên miên giữa hai thế lực khiến người dân phải chịu đựng sự khốn khổ. Khi phong trào Tây Sơn nổi lên với mục tiêu thống nhất đất nước, nhiều người đã ủng hộ phong trào này như một niềm hy vọng cuối cùng để chấm dứt cảnh chiến tranh và chia cắt.`,
         },
       ],
-    }
-
+    },
   ],
 }
 
@@ -484,7 +513,7 @@ const trieuTranData: ITotalData = {
   list: [
     {
       id: 8,
-      image: images.tran0,  // hình ảnh minh họa cho nhà Trần
+      image: images.tran0, // hình ảnh minh họa cho nhà Trần
       category: ECategory.TRIEU_TRAN,
       title: 'Sơ lược về nhà Trần',
       description:
@@ -522,7 +551,7 @@ const trieuTranData: ITotalData = {
     },
     {
       id: 9,
-      image: images.tran1,  // hình ảnh minh họa chiến thắng quân Nguyên - Mông
+      image: images.tran1, // hình ảnh minh họa chiến thắng quân Nguyên - Mông
       category: ECategory.TRIEU_TRAN,
       title: 'Quân dân nhà Trần ba lần đánh thắng giặc Nguyên - Mông',
       description:
@@ -548,7 +577,7 @@ const trieuTranData: ITotalData = {
           content: `Chiến thắng ba lần chống quân Nguyên - Mông là minh chứng cho tinh thần đoàn kết và tài thao lược của quân dân Đại Việt dưới triều Trần. Chiến thắng Bạch Đằng đã bảo vệ nền độc lập, tự chủ của Đại Việt trước một trong những đế chế hùng mạnh nhất thế giới lúc bấy giờ.`,
         },
       ],
-    }
+    },
   ],
 }
 
@@ -561,7 +590,7 @@ const trieuHoData: ITotalData = {
   list: [
     {
       id: 10,
-      image: images.ho1,  // hình ảnh minh họa cho triều đại nhà Hồ
+      image: images.ho1, // hình ảnh minh họa cho triều đại nhà Hồ
       category: ECategory.TRIEU_HO,
       title: 'Triều đại ngắn ngủi nhất lịch sử phong kiến Việt Nam',
       description:
@@ -591,7 +620,7 @@ const trieuHoData: ITotalData = {
     },
     {
       id: 11,
-      image: images.ho2,  // hình ảnh minh họa chiến tranh Đại Ngu - Đại Minh
+      image: images.ho2, // hình ảnh minh họa chiến tranh Đại Ngu - Đại Minh
       category: ECategory.TRIEU_HO,
       title: 'Chiến tranh Đại Ngu - Đại Minh',
       description:
@@ -600,7 +629,7 @@ const trieuHoData: ITotalData = {
         {
           title: 'Bối cảnh lịch sử',
           content:
-            'Năm 1400, Hồ Quý Ly buộc vua nhà Trần phải nhường ngôi và lập ra nhà Hồ, đổi quốc hiệu thành Đại Ngu. Sau khi lên ngôi, Hồ Quý Ly thực hiện nhiều cải cách về tiền giấy, quân sự, hành chính và chuyển kinh đô từ Thăng Long về Thanh Hóa. Tuy nhiên, nhà Hồ gặp nhiều sức ép từ phía nhà Minh khi họ đưa ra những đòi hỏi về người, lương thực, của cải và đất đai. Hồ Quý Ly cố gắng đáp ứng những yêu sách này một cách tối thiểu để bảo toàn Đại Ngu.'
+            'Năm 1400, Hồ Quý Ly buộc vua nhà Trần phải nhường ngôi và lập ra nhà Hồ, đổi quốc hiệu thành Đại Ngu. Sau khi lên ngôi, Hồ Quý Ly thực hiện nhiều cải cách về tiền giấy, quân sự, hành chính và chuyển kinh đô từ Thăng Long về Thanh Hóa. Tuy nhiên, nhà Hồ gặp nhiều sức ép từ phía nhà Minh khi họ đưa ra những đòi hỏi về người, lương thực, của cải và đất đai. Hồ Quý Ly cố gắng đáp ứng những yêu sách này một cách tối thiểu để bảo toàn Đại Ngu.',
         },
         {
           title: 'Chiến sự mở màn và cuộc tấn công của nhà Minh',
@@ -627,7 +656,7 @@ const trieuHoData: ITotalData = {
           2. Dù có chiến lược phòng thủ và tích trữ lương thực, quân nhà Hồ liên tiếp thất bại trong các trận chiến quan trọng như bãi Thiên Mạc, Mộc Hoàn và đặc biệt là trận Đa Bang, khiến cho quân Minh chiếm được thành Đa Bang và Đông Đô. Sau trận chiến tại Hàm Tử, quân chủ lực của nhà Hồ tan rã và Hồ Quý Ly, Hồ Hán Thương bị bắt sống vào tháng 6 năm 1407.`,
         },
       ],
-    }
+    },
   ],
 }
 
@@ -640,7 +669,7 @@ const trieuMacData: ITotalData = {
   list: [
     {
       id: 12,
-      image: images.mạc,  // hình ảnh minh họa cho triều đại nhà Mạc
+      image: images.mac, // hình ảnh minh họa cho triều đại nhà Mạc
       category: ECategory.TRIEU_MAC,
       title: 'Đôi nét về triều đại nhà Mạc',
       description:
@@ -674,7 +703,7 @@ const trieuMacData: ITotalData = {
     },
     {
       id: 13,
-      image: images.ctmac,  // hình ảnh minh họa cho cuộc chiến tranh Lê - Mạc
+      image: images.ctmac, // hình ảnh minh họa cho cuộc chiến tranh Lê - Mạc
       category: ECategory.TRIEU_MAC,
       title: 'Chiến tranh Lê - Mạc',
       description:
@@ -705,7 +734,7 @@ const trieuMacData: ITotalData = {
           2. Tuy nhiên, cuộc chiến này cũng đánh dấu sự thay đổi về mặt quyền lực, khi nhà Lê trở lại vị trí cai trị, đồng thời quyền lực của dòng họ Trịnh ngày càng được củng cố, mở đường cho sự thống trị của chúa Trịnh trong thời kỳ Lê Trung Hưng.`,
         },
       ],
-    }
+    },
   ],
 }
 
@@ -718,7 +747,7 @@ const trieuNguyenData: ITotalData = {
   list: [
     {
       id: 18,
-      image: images.menu_nguyen,  // hình ảnh minh họa về triều đại nhà Nguyễn
+      image: images.menu_nguyen, // hình ảnh minh họa về triều đại nhà Nguyễn
       category: ECategory.TRIEU_NGUYEN,
       title: 'Triều đại Nhà Nguyễn: Thăng trầm và dấu ấn lịch sử',
       description:
@@ -752,7 +781,41 @@ const trieuNguyenData: ITotalData = {
           content: `Mặc dù có những ý kiến trái chiều về triều Nguyễn, bao gồm việc cầu viện ngoại bang để giành lấy quyền lực, nhà Nguyễn cũng đã có những đóng góp quan trọng, như thống nhất đất nước, mở rộng lãnh thổ và phát triển kinh tế. Tuy nhiên, việc thiếu cải cách kịp thời và sự yếu kém trong đối phó với ngoại xâm đã dẫn đến sự sụp đổ của triều đại.`,
         },
       ],
-    }
+    },
+    {
+      id: 22,
+      image: images.thanh_thai, // Hình ảnh minh họa về vua Thành Thái
+      category: ECategory.TRIEU_NGUYEN,
+      title: 'Vua Thành Thái: Một vị vua yêu nước bị ép thoái vị',
+      description:
+        'Vua Thành Thái (1879 - 1954), vị hoàng đế thứ 10 của triều Nguyễn, nổi tiếng với tinh thần yêu nước, có nhiều hoạt động ủng hộ việc chống Pháp và sự tiến bộ. Tuy nhiên, ông bị thực dân Pháp coi là mối đe dọa và buộc phải thoái vị vào năm 1907.',
+      body: [
+        {
+          title: '1. Lên ngôi vua (1889)',
+          content: `Vua Thành Thái, tên thật là Nguyễn Phúc Bửu Lân, sinh năm 1879, con trai vua Dục Đức. Sau khi vua Đồng Khánh qua đời, ông được đưa lên ngôi vào năm 1889, trở thành vị vua thứ 10 của triều Nguyễn khi mới 10 tuổi.`,
+        },
+        {
+          title: '2. Những cải cách và tinh thần yêu nước',
+          content: `Vua Thành Thái được biết đến với tinh thần yêu nước mạnh mẽ. Ông quan tâm đến tình hình đất nước và dân chúng, và tìm cách cải tổ nhiều chính sách nhằm hiện đại hóa triều đình và đất nước. Ông thường ra ngoài vi hành để lắng nghe ý kiến của người dân và ủng hộ các phong trào chống Pháp ngầm.`,
+        },
+        {
+          title: '3. Xung đột với thực dân Pháp',
+          content: `Với những hoạt động yêu nước của mình, vua Thành Thái nhanh chóng bị thực dân Pháp xem là một mối đe dọa. Ông nhiều lần chỉ trích chính sách cai trị của Pháp và tìm cách cải thiện đời sống của dân chúng dưới ách thống trị ngoại bang. Ông cũng tìm cách liên lạc với các sĩ phu yêu nước và những lực lượng chống Pháp.`,
+        },
+        {
+          title: '4. Bị buộc thoái vị (1907)',
+          content: `Vào năm 1907, do những hoạt động yêu nước và chống Pháp, vua Thành Thái bị ép thoái vị dưới áp lực của thực dân Pháp. Sau khi thoái vị, ông bị lưu đày sang đảo Réunion cùng với con trai là vua Duy Tân. Cả hai cha con đều được xem là những biểu tượng yêu nước trong lịch sử Việt Nam.`,
+        },
+        {
+          title: '5. Những năm cuối đời',
+          content: `Sau nhiều năm sống lưu vong ở đảo Réunion, vua Thành Thái được phép trở về Việt Nam vào năm 1947 nhưng không được phục chức. Ông sống những năm cuối đời trong cảnh nghèo khó tại Vũng Tàu và qua đời vào năm 1954.`,
+        },
+        {
+          title: '6. Di sản của vua Thành Thái',
+          content: `Mặc dù thời gian cai trị ngắn ngủi và bị Pháp ép thoái vị, vua Thành Thái vẫn được người dân và giới sử học đánh giá cao vì tinh thần yêu nước, sự dũng cảm và nỗ lực chống lại sự đô hộ của Pháp. Ông là một trong những vị vua đáng kính của triều Nguyễn, để lại dấu ấn trong phong trào yêu nước đầu thế kỷ 20.`,
+        },
+      ],
+    },
   ],
 }
 
@@ -765,7 +828,7 @@ const trieuTaySonData: ITotalData = {
   list: [
     {
       id: 14,
-      image: images.ts1,  // hình ảnh minh họa cho Quang Trung - Nguyễn Huệ
+      image: images.ts1, // hình ảnh minh họa cho Quang Trung - Nguyễn Huệ
       category: ECategory.TRIEU_TAY_SON,
       title: 'Những cống hiến và công trạng của Quang Trung - Nguyễn Huệ',
       description:
@@ -782,7 +845,8 @@ const trieuTaySonData: ITotalData = {
           2. Năm 1788-1789, dưới sự cầu viện của Lê Chiêu Thống, quân Thanh xâm lược nước ta với 29 vạn quân. Quang Trung Nguyễn Huệ đã chỉ huy cuộc hành quân thần tốc ra Bắc, mở cuộc tiến công vào đêm giao thừa và đánh bại quân Thanh trong trận Ngọc Hồi - Đống Đa vào mồng 5 Tết, giải phóng kinh thành Thăng Long và giữ vững nền độc lập quốc gia.`,
         },
         {
-          title: '3. Chấm dứt tình trạng phân liệt Đàng Trong - Đàng ngoài, đặt cơ sở khôi phục thống nhất quốc gia',
+          title:
+            '3. Chấm dứt tình trạng phân liệt Đàng Trong - Đàng ngoài, đặt cơ sở khôi phục thống nhất quốc gia',
           content: `	1. Sau khi lật đổ chúa Nguyễn ở Đàng Trong và đánh bại quân Xiêm, Nguyễn Huệ tiếp tục tiến quân ra Bắc, đánh lui quân Trịnh, giải phóng toàn bộ Đàng Ngoài. Chỉ trong vòng 10 ngày, quân Tây Sơn đã đánh tan quân Trịnh và chiếm Thăng Long.
           2. Nguyễn Huệ đã lật đổ chính quyền chúa Nguyễn và chúa Trịnh, chấm dứt tình trạng phân liệt kéo dài hơn hai thế kỷ, đặt cơ sở cho việc thống nhất đất nước.`,
         },
@@ -800,7 +864,7 @@ const trieuTaySonData: ITotalData = {
     },
     {
       id: 15,
-      image: images.ts2,  // hình ảnh minh họa cho quân đội Tây Sơn
+      image: images.ts2, // hình ảnh minh họa cho quân đội Tây Sơn
       category: ECategory.TRIEU_TAY_SON,
       title: 'Triều Tây Sơn và các chính sách xây dựng quân đội',
       description:
@@ -835,7 +899,7 @@ const trieuTaySonData: ITotalData = {
           content: `Dù sở hữu sức mạnh quân sự vượt trội, triều đại Tây Sơn đã nhanh chóng sụp đổ sau khi Hoàng đế Quang Trung qua đời năm 1792. Người kế vị ông là Nguyễn Quang Toản không thể tiếp tục duy trì sức mạnh quân đội, khiến nhà Tây Sơn thất bại trước nhà Nguyễn vào năm 1802. Tuy nhiên, những thành tựu quân sự và chiến thắng vĩ đại của triều Tây Sơn vẫn còn là niềm tự hào lớn trong lịch sử Việt Nam.`,
         },
       ],
-    }
+    },
   ],
 }
 
@@ -848,7 +912,7 @@ const phapThuocData: ITotalData = {
   list: [
     {
       id: 16,
-      image: images.phapthuoc,  // hình ảnh minh họa cho giai đoạn Pháp thuộc
+      image: images.phapthuoc, // hình ảnh minh họa cho giai đoạn Pháp thuộc
       category: ECategory.PHAP_THUOC,
       title: 'Pháp thuộc: Giai đoạn thuộc địa hóa Việt Nam và Đông Dương',
       description:
@@ -881,7 +945,7 @@ const phapThuocData: ITotalData = {
     },
     {
       id: 17,
-      image: images.hcm,  // hình ảnh minh họa về Hồ Chí Minh
+      image: images.hcm, // hình ảnh minh họa về Hồ Chí Minh
       category: ECategory.PHAP_THUOC,
       title: 'Hồ Chí Minh: Nhà cách mạng và lãnh tụ vĩ đại của Việt Nam',
       description:
@@ -909,17 +973,8 @@ const phapThuocData: ITotalData = {
           content: `Ngoài hoạt động chính trị, Hồ Chí Minh còn là nhà văn, nhà thơ và nhà báo với nhiều tác phẩm nổi tiếng như "Nhật ký trong tù" và "Bản án chế độ thực dân Pháp". Những tác phẩm này đã phản ánh tinh thần đấu tranh kiên cường vì độc lập dân tộc và quyền tự do của con người. Tư tưởng Hồ Chí Minh, với nội dung chủ yếu là giải phóng dân tộc, độc lập, tự do và hạnh phúc, đã trở thành di sản to lớn của cách mạng Việt Nam.`,
         },
       ],
-    }
+    },
   ],
-}
-
-const hienDaiData: ITotalData = {
-  id: ECategory.HIEN_DAI,
-  title: 'Hiện đại',
-  start: 1945,
-  end: 2021,
-  image: images.menu_hiendai,
-  list: [],
 }
 
 export const totalData: IObjectTotalData = {
@@ -935,7 +990,17 @@ export const totalData: IObjectTotalData = {
   [ECategory.TRIEU_NGUYEN]: trieuNguyenData,
   [ECategory.TRIEU_TAY_SON]: trieuTaySonData,
   [ECategory.PHAP_THUOC]: phapThuocData,
-  [ECategory.HIEN_DAI]: hienDaiData,
 }
 
-export const allPosts = [...trieuDinhData.list, ...trieuLyData.list]
+export const allPosts = [
+  ...trieuDinhData.list,
+  ...trieuLyData.list,
+  ...trieuTienLeData.list,
+  ...trieuHauLeData.list,
+  ...trieuTranData.list,
+  ...trieuHoData.list,
+  ...trieuMacData.list,
+  ...trieuNguyenData.list,
+  ...trieuTaySonData.list,
+  ...phapThuocData.list,
+]

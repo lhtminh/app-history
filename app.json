@@ -25,7 +25,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.manhhdv.templateexpoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -36,6 +37,14 @@
     "experiments": {
       "typedRoutes": true,
       "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b495b690-9aed-4e3a-8f96-6b2fa64dfcac"
+      }
     }
   }
 }

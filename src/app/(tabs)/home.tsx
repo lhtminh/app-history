@@ -25,7 +25,7 @@ const Home = () => {
             </View>
             {/* Slideshow */}
             <View className="">
-              <SlideImage itemList={getRandomArray(allPosts, 3)} />
+              <SlideImage itemList={getRandomArray(allPosts, 5)} />
             </View>
             {/* News */}
             <View className="px-5">

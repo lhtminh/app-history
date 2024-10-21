@@ -10,40 +10,40 @@ import AsyncStorage from '@react-native-async-storage/async-storage' // Add this
 
 const Detail = () => {
   const { menuId, itemId } = useLocalSearchParams()
-  const [isBookmarked, setIsBookmarked] = useState(false);
+  const [isBookmarked, setIsBookmarked] = useState(false)
   const data = totalData[Number(menuId)]
   const postData = data.list.find((item) => item.id === Number(itemId))
 
   useEffect(() => {
     const checkBookmark = async () => {
       try {
-        const bookmark = await AsyncStorage.getItem(`history-${postData?.category}${postData?.id}`);
+        const bookmark = await AsyncStorage.getItem(`history-${postData?.category}${postData?.id}`)
         if (bookmark) {
-          setIsBookmarked(true); // Set bookmark status if found
+          setIsBookmarked(true) // Set bookmark status if found
         }
       } catch (error) {
-        console.error('Error checking bookmark:', error);
+        console.error('Error checking bookmark:', error)
       }
-    };
+    }
 
-    checkBookmark(); // Call the function to check bookmark status
-  }, [postData?.category, postData?.id]); // Dependency array to run effect when postData.id changes
+    checkBookmark() // Call the function to check bookmark status
+  }, [postData?.category, postData?.id]) // Dependency array to run effect when postData.id changes
 
   const handleBookMark = async () => {
     try {
-      const bookmarkKey = `history-${postData?.category}${postData?.id}`;
+      const bookmarkKey = `history-${postData?.category}${postData?.id}`
       if (isBookmarked) {
         // Remove bookmark if already bookmarked
-        await AsyncStorage.removeItem(bookmarkKey);
-        setIsBookmarked(false); // Update state to reflect that it is no longer bookmarked
+        await AsyncStorage.removeItem(bookmarkKey)
+        setIsBookmarked(false) // Update state to reflect that it is no longer bookmarked
       } else {
         // Save bookmark if not bookmarked
         const bookmarkData = {
           id: postData?.id,
           category: postData?.category,
-        };
-        await AsyncStorage.setItem(bookmarkKey, JSON.stringify(bookmarkData));
-        setIsBookmarked(true); // Update state to reflect that it is bookmarked
+        }
+        await AsyncStorage.setItem(bookmarkKey, JSON.stringify(bookmarkData))
+        setIsBookmarked(true) // Update state to reflect that it is bookmarked
       }
     } catch (error) {
       console.error('Error saving bookmark:', error)
@@ -58,29 +58,35 @@ const Detail = () => {
             <View className="flex-row items-center justify-between px-5">
               <IconButton
                 IconName={ArrowLeft}
-                bg="bg-white-lighter"
+                bg="bg-gray-100"
                 onPress={() => router.back()}
-                color="#fff"
+                color="#000"
               />
               <IconButton
                 IconName={Bookmark}
-                bg={isBookmarked ? "bg-red-300" : 'bg-white-lighter'}
+                bg={isBookmarked ? 'bg-red-300' : 'bg-gray-100'}
                 onPress={handleBookMark}
-                color="#fff"
-                
+                color="#000"
               />
             </View>
             <View className="flex-col items-start p-5">
               <View className="bg-primary-500 py-1 px-2 rounded-3xl">
-                <Text className="text-gray-200 text-xs capitalize">{data.title}</Text>
+                <Text className="text-white text-xs capitalize">{data.title}</Text>
               </View>
-              <Text
-                className="text-white font-medium text-lg"
-                ellipsizeMode="tail"
-                numberOfLines={2}
+              <View
+                className=" p-2 mt-3 rounded-xl"
+                style={{
+                  backgroundColor: 'rgba(0,0,0,0.5)',
+                }}
               >
-                {postData?.description}
-              </Text>
+                <Text
+                  className="text-white font-medium text-lg"
+                  ellipsizeMode="tail"
+                  numberOfLines={2}
+                >
+                  {postData?.description}
+                </Text>
+              </View>
             </View>
           </View>
         </ScreenWrapper>

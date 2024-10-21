@@ -1,6 +1,6 @@
 export function getRandomArray(arr: any[], numberOfElements: number) {
   const shuffled = arr.sort(() => Math.random() - 0.5)
-  return shuffled.slice(0, numberOfElements)
+  return shuffled.slice(0, Math.min(numberOfElements, arr.length))
 }
 
 export function getRandomString(length: number) {
