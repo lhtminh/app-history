@@ -1,6 +1,6 @@
 # 🌌 **Viet History** 
 
-<img src="./assets/logo.svg" width="40%" alt='App Logo'>
+<img src="./assets/icon.png" width="40%" alt='App Logo'>
 
 Explore the cosmos like never before! Our **Viet History** offers detailed planet information, quizzes to challenge your knowledge, and a fun image puzzle game. Discover the universe, one screen at a time!
 
