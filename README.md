@@ -1,33 +1,66 @@
-# 🌌 **Viet History** 
+# 🌌 **Viet History**
 
 <img src="./assets/icon.png" width="40%" alt='App Logo'>
 
-Explore the cosmos like never before! Our **Viet History** offers detailed planet information, quizzes to challenge your knowledge, and a fun image puzzle game. Discover the universe, one screen at a time!
+## Dive into Vietnam’s rich and untold history with **Viet History**. Our app offers detailed insights into Vietnamese historical events and engaging content designed to make history fascinating for everyone.
+
+## 🗂 **Table of Contents**
+
+- [📜 Viet History](#)
+  - [🗂 Table of Contents](#table-of-contents)
+  - [🌍 About](#about)
+  - [⭐ Features](#features)
+    - [📖 Historical Content](#historical-content)
+    - [🔖 Bookmark Feature](#bookmark-feature)
+    - [✨ Recommended Articles](#recommended-articles)
+  - [🚀 Future Plans](#future-plans)
+  - [📸 Screenshots](#screenshots)
+  - [📱 Demo App](#demo-app)
+  - [⚙️ Getting Started](#getting-started)
+    - [🛠 Prerequisites](#prerequisites)
+    - [📥 Installation](#installation)
 
 ---
 
 ## 🌍 **About**
 
-Discover the wonders of the universe with our **Viet History**! Learn fascinating facts about planets, test your space knowledge with quizzes, and engage in interactive puzzle games to keep you entertained and educated. Whether you're a casual learner or a space enthusiast, this app has something for everyone!
+Discover Vietnam's rich and diverse history with **Viet History**. This app presents stories and events not commonly found in textbooks or other platforms. Our aim is to engage students, history enthusiasts, and learners worldwide by making Vietnam’s history accessible, interesting, and educational.
 
 ---
 
-## 🚀 **Features**
+## ⭐ **Features**
 
-### 🪐 **Feature 1**
+- [📖 Historical Content](#historical-content)
+- [🔖 Bookmark Feature](#bookmark-feature)
+- [✨ Recommended Articles](#recommended-articles)
 
-- **Detailed Descriptions**: Explore each planet's structure, size, atmosphere, and other unique features.
-- **Stunning Visuals**: Enjoy high-quality images and videos that showcase the beauty of planets.
+### 📖 **Historical Content**
 
-### 🧠 **Feature 2**
+- **40+ Articles**: Explore over 40 in-depth articles covering Vietnam’s historical events, culture, and politics from all dynasties.
+- **Unique Topics**: Discover lesser-known stories and events from Vietnam’s long history that are rarely covered in traditional sources.
+- **Wide range of images**: The app features a rich collection of historical images, making the learning experience more engaging and visually immersive for users.
 
-- **Challenging Quizzes**: Test your knowledge of the cosmos with questions about planets, stars, and astronomical events.
-- **Random & Topic-Specific Quizzes**: Choose between random questions or focus on specific topics of interest.
+### 🔖 **Bookmark Feature**
 
-### 🧩 **Feature 3**
+- **Save Favorite Articles**: Easily bookmark your favorite historical articles or events to revisit them anytime.
+- **Organized Learning**: Keep track of your learning progress by saving specific sections of content you want to explore further.
+- **Quick Access**: Return to previously saved content quickly without having to search for it again.
 
-- **Engaging Puzzle Challenges**: Solve puzzles featuring cosmic images to sharpen your skills and knowledge of the universe.
-- **Progressive Levels**: Each puzzle gets harder, challenging you to think critically and solve with precision.
+### ✨ **Recommended Articles**
+
+- **Personalized Suggestions**: Get recommended articles based on your reading history and interests to help you discover new topics.
+- **Curated Content**: Find curated lists of articles that are relevant to the period or events you're studying, helping you dive deeper into Vietnam's history.
+- **User Engagement**: Stay engaged with fresh content that matches your interests, making history learning more dynamic and personalized.
+
+---
+
+## 🚀 **Future Plans**
+
+We have exciting plans to expand **Viet History** beyond Vietnam’s borders and offer even more engaging content for users:
+
+- **World History**: Our goal is to introduce world history topics, offering users a broader perspective on global events and historical movements.
+- **Interactive Games**: We plan to incorporate educational games into the app to make learning history more interactive and enjoyable. These games will challenge users to apply their knowledge in creative ways.
+- **Enhanced Learning Tools**: We aim to implement features like quizzes, flashcards, and timelines to improve the learning experience for users of all ages.
 
 ---
 
@@ -46,6 +79,7 @@ Discover the wonders of the universe with our **Viet History**! Learn fascinatin
 ---
 
 ## 🎬 **Demo App**
+
 ### [DEMO - DRIVE](https://drive.google.com/drive/folders/1oxnCy_Aw9R8-WAmKdGx_LX93s7nnlSsE)
 
 ## ⚙️ **Getting Started**
@@ -61,17 +95,19 @@ Make sure you have these tools installed before starting:
 ### 📥 **Installation**
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/lhtminh/app-history.git
-    cd app-history
-    ```
+
+   ```bash
+   git clone https://github.com/lhtminh/app-history.git
+   cd app-history
+   ```
 
 2. **Install dependencies**:
-    ```bash
-    yarn
-    ```
+
+   ```bash
+   yarn
+   ```
 
 3. **Start the app**:
-    ```bash
-    yarn start
-    ```
+   ```bash
+   yarn start
+   ```
