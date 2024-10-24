@@ -36,7 +36,7 @@ Discover Vietnam's rich and diverse history with **Viet History**. This app pres
 
 ### 📖 **Historical Content**
 
-- **40+ Articles**: Explore over 40 in-depth articles covering Vietnam’s historical events, culture, and politics from all dynasties.
+- **90+ Articles**: Explore over 40 in-depth articles covering Vietnam’s historical events, culture, and politics from all dynasties.
 - **Unique Topics**: Discover lesser-known stories and events from Vietnam’s long history that are rarely covered in traditional sources.
 - **Wide range of images**: The app features a rich collection of historical images, making the learning experience more engaging and visually immersive for users.
 
